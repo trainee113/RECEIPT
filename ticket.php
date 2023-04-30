@@ -25,7 +25,7 @@
     $pdf->MultiCell(0,5,utf8_decode("Caja Nro: 1"),0,'C',false);
     $pdf->MultiCell(0,5,utf8_decode("Cajero: Carlos Alfaro"),0,'C',false);
     $pdf->SetFont('Arial','B',10);
-    $pdf->MultiCell(0,5,utf8_decode(strtoupper("Ticket Nro: 1")),0,'C',false);
+    $pdf->MultiCell(0,5,utf8_decode(strtoupper("Ticket Nro: 2")),0,'C',false);
     $pdf->SetFont('Arial','',9);
 
     $pdf->Ln(1);
